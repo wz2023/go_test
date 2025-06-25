@@ -1,0 +1,377 @@
+syntax = "proto3";
+
+option go_package = "./plr";
+
+// 捕鱼协议 08
+
+//请求房间
+message C3080001{
+    int32 GameKindID = 1;           // 游戏类型
+}
+message S3080001{
+    message RoomInfo {
+        int32 RoomID = 1;
+        double BaseAmount = 2;
+        double MinEnterAmount = 3;
+        double MaxEnterAmount = 4;    
+        string RoomName = 5; 
+        double MinRatio = 6;
+        double MaxRatio = 7;
+    }
+    int32 RetCode = 1;
+    repeated RoomInfo Rooms = 2;
+}
+
+//进入房间
+message C3080002{
+    int32 RoomID = 1;
+    string UserID = 2;
+}
+message S3080002{
+    message SeatInfo {
+        int32 TableID = 1;
+        int32 SeatNo = 2;
+        int32 FaceID = 3;
+        string UserID = 4;
+        string UserName = 5;
+        double UserAmount = 6;
+        int32 CannonID = 7; //炮台ID
+        double Ratio = 8; //炮台倍率
+        int32 VipLevel = 9;
+        int32 FaceFrameID=10;
+    }
+    message FishInfo {
+        int32 FishID=1;
+        int32 KindID=2;
+        int32 Path=3;
+        int64 StartTime=4;
+        int64 CurrentTime=5;
+    }
+    message SkillInfo {
+        string UserID = 1;
+        int32 TableID = 2;
+        int32 SeatNo = 3;
+        int32 SkillType = 4;
+        // int32 FreezeTime = 5; //冷却时间
+        // int64 CountDonw = 6; //剩余时间
+    }
+
+    int32 RetCode = 1;
+    int32 RoomID = 2;
+    int32 TableID = 3;
+    int32 SeatNo = 4;
+    repeated SeatInfo Seats = 5;
+    repeated FishInfo Fishes = 6;
+    repeated SkillInfo Skills = 7;
+    int32 TideID = 8;
+    // int32 CDTime = 9; //冷却时间
+    // int32 LeftCDTime = 10; //剩余冷却时间
+    // int32 FreezeTime = 11; //冰冻时间
+    // int64 CountDonw = 12; //剩余冰冻时间
+}
+
+//炮台种类
+message C3080003{
+    string UserID = 1;
+}
+message S3080003{
+    message CannonInfo {
+        int32 ID = 1;
+        string Name = 2; //炮台名称
+        int32 PeriodDay = 3; //有效天数
+        double CostWealth = 4; //购买消耗财富
+        int32 useStatus = 5; //0 未购买,1:已购买未装备, 2:已装备
+        int64 Lefttime = 6; //剩余使用秒数
+    }
+    int32 RetCode = 1;
+    repeated CannonInfo Cannons = 2;
+}
+
+//图鉴
+message C3080004{
+}
+message S3080004{
+    message FishKind {
+        int32 ID = 1;
+        string KindName = 2;
+        double Score = 3;
+    }
+    int32 RetCode = 1;
+    repeated FishKind Kinds = 2;
+}
+
+//使用技能
+message C3080005{
+    string UserID=1;
+    int32 TableID = 2;
+    int32 SeatNo = 3;
+    int32 SkillType = 4; //0:冻结 1:自动 2:锁定
+    int32 OpType = 5; //0:使用技能 1:取消技能
+}
+message S3080005{
+    int32 RetCode = 1;
+    int32 SkillType = 2; //0:冻结 1:自动 2:锁定
+    int32 OpType = 3; //0:使用技能 1:取消技能
+}
+
+//购买炮台
+message C3080006 {
+    string UserID = 1;   //用户ID
+    int32 CannonID = 2;   //炮台ID
+}
+message S3080006 {
+    int32 RetCode = 1;
+    double CostWealth=2;
+    int32 CannonID=3;
+    int64 Lefttime = 4; //剩余使用秒数
+}
+
+//装载炮台
+message C3080007{
+    string UserID=1;
+    int32 CannonID=2;
+}
+message S3080007{
+    int32 RetCode = 1;
+    int32 CannonID=2;
+}
+
+// 重入房间
+message C3080008 {
+    string UserID = 1;
+    int32 RoomID = 3;
+    int32 TableID = 4;
+    int32 SeatNo = 5;
+}
+
+message S3080008{
+    message SeatInfo {
+        int32 TableID = 1;
+        int32 SeatNo = 2;
+        int32 FaceID = 3;
+        string UserID = 4;
+        string UserName = 5;
+        double UserAmount = 6;
+        int32 CannonID = 7; //炮台ID
+        double Ratio = 8; //炮台倍率
+        int32 VipLevel = 9;
+        int32 FaceFrameID=10;
+    }
+    message FishInfo {
+        int32 FishID=1;
+        int32 KindID=2;
+        int32 Path=3;
+        int64 StartTime=4;
+        int64 CurrentTime=5;
+    }
+    message SkillInfo {
+        string UserID = 1;
+        int32 TableID = 2;
+        int32 SeatNo = 3;
+        int32 SkillType = 4;
+        // int32 FreezeTime = 5; //冷却时间
+        // int64 CountDonw = 6; //剩余时间
+    }
+
+    int32 RetCode = 1;
+    int32 RoomID = 2;
+    int32 TableID = 3;
+    int32 SeatNo = 4;
+    repeated SeatInfo Seats = 5;
+    repeated FishInfo Fishes = 6;
+    repeated SkillInfo Skills = 7;
+    int32 TideID = 8;
+    // int32 CDTime = 9; //冷却时间
+    // int32 LeftCDTime = 10; //剩余冷却时间
+    // int32 FreezeTime = 11; //冰冻时间
+    // int64 CountDonw = 12; //剩余冰冻时间
+    
+}
+
+//放鱼
+message P3080001{
+    message FishInfo{
+        int32 FishID=1;
+        int32 KindID=2;
+        int32 Path=3;
+    }
+   repeated FishInfo Fishes=1;
+   int32 RoomID=2;
+   int32 TableID=3;
+}
+
+//玩家进入房间
+message P3080002{
+    string UserID = 1;
+    int32 TableID = 2;
+    int32 SeatNo = 3;  
+    string UserName = 4;
+    double UserWealth = 5;  //当前金币
+    int32 FaceID = 6; 
+    int32 CannonID=7; //炮台ID
+    double Ratio=8; //炮台倍率
+    int32 VipLevel = 9;
+    int32 FaceFrameID=10;
+}
+
+//玩家离开
+message P3080003{
+    int32 TableID = 1;
+    int32 SeatNo = 2;
+    string UserID = 3;
+}
+
+//通知其他玩家发射子弹信息
+message P3080004{
+    int32 BulletID=1;
+    string UserID=2;
+    int32 TableID=3;
+    int32 SeatNo=4;
+    double VectorX=5;//发射向量
+    double VectorY=6;//发射向量
+    int32 Speed=7;
+    double UserAmount=8; //玩家剩余金币
+    int32 FishID=9; //锁定时指定锁定哪条鱼
+}
+
+//冰冻技能完成
+message P3080005{
+    int32 TableID = 2;
+}
+
+//捕获鱼
+message P3080006{
+    int32 BulletID=1;
+    int32 FishID=2;
+    int32 TableID = 3;
+    int32 SeatNo = 4;
+    double Ratio = 5;
+    double AddWealth = 6;
+    double UserAmount = 7; //玩家剩余金币
+}
+
+//使用技能
+message P3080007{
+    string UserID=1;
+    int32 TableID = 2;
+    int32 SeatNo = 3;
+    int32 SkillType = 4;
+    int32 OpType = 5; //0:使用技能 1:取消技能
+}
+
+//切换倍率
+message P3080008{
+    int32 TableID = 1;
+    int32 SeatNo = 2;
+    double Ratio=3;
+}
+
+//鱼潮开始
+message P3080009{
+    message FishInfo{
+        int32 FishID=1;
+        int32 KindID=2;
+        int32 Path=3;
+        int64 SpawnTime=4;  //出鱼时间 单位毫秒
+    }
+    repeated FishInfo Fishes = 1;
+    int32 TableID = 2;
+}
+//捕获电鳗鱼
+message P3080010{
+    message CaptureFish{
+        int32  FishID = 1;
+        double Score = 2;
+    }
+    int32 BulletID=1;
+    int32 FishID=2;
+    int32 TableID = 3;
+    int32 SeatNo = 4;
+    double Ratio = 5;
+    double AddWealth = 6;
+    repeated CaptureFish Fishes = 7;//被电死的鱼
+    double UserAmount = 8; //玩家剩余金币
+}
+//BOSS鱼出现
+message P3080011{
+    int32 TableID = 1;
+}
+
+//BOSS鱼消失
+// message P3080012{
+//     int32 TableID = 1;
+// }
+
+//购买炮台后金币推送
+message P3080013{
+    int32 TableID = 1;
+    int32 SeatNo=2;
+    double UserWealth=3;
+}
+
+//炮台切换后推送
+message P3080014{
+    int32 TableID = 1;
+    int32 SeatNo=2;
+    int32 CannonID=3;
+}
+
+//场内所有鱼
+message P3080015 {
+    message FishInfo{
+        int32 FishID=1;
+        int32 Path=2;
+        int64 ElapsedTime =3; //毫秒
+    }
+    int32 RoomID=1;
+    int32 TableID=2;
+   repeated FishInfo Fishes=3;
+}
+
+//鱼潮即将开始
+message P3080016{
+    int32 TableID = 1;
+    int32 TideID = 2;
+    int64 WaveTime = 3; //波浪时间 单位毫秒
+}
+
+//鱼潮时实时推送鱼潮
+message P3080017{
+    repeated int32 Fishes=1;
+    int32 TableID = 2;
+ }
+
+//玩家离开
+message N3080001{
+    string UserID = 1;
+    int32 LeaveType = 2; //0:掉线,1:离开 客户端不用传
+}
+
+//发射子弹
+message N3080002{
+    int32 BulletID=1;
+    string UserID=2;
+    int32 TableID=3;
+    int32 SeatNo=4;
+    double VectorX=5;//发射向量
+    double VectorY=6;//发射向量
+    int32 Speed=7;
+    double Ratio=8;
+    int32 FishID=9; //锁定时指定锁定哪条鱼
+}
+
+//子弹碰到鱼
+message N3080003{
+    int32 BulletID=1;
+    string UserID=2;
+    int32 FishID=3;
+    int32 TableID=4;
+    int32 SeatNo=5;
+}
+
+//切换炮台倍率
+message N3080004{
+    string UserID = 1;
+    double Ratio = 2;
+}
+

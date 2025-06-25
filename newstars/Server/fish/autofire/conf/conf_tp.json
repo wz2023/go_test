@@ -1,0 +1,35 @@
+{
+    "Host":"127.0.0.1:36539",
+    "Dsn" :"root:123456@tcp(127.0.0.1:3306)/newstars2",
+    "Dbtype" : "mysql",
+    "FishTide":[ [{
+            "TimeAxis":1,
+            "KindIDs":"1,2",
+            "Paths":"2,3"
+        },
+        {
+            "TimeAxis":2,
+            "KindIDs":"3,5",
+            "Paths":"4,6"
+        },
+        {
+            "TimeAxis":3,
+            "KindIDs":"3,5",
+            "Paths":"4,6"
+        },
+        {
+            "TimeAxis":4,
+            "KindIDs":"3,5",
+            "Paths":"4,6"
+        },
+        {
+            "TimeAxis":5,
+            "KindIDs":"3,5",
+            "Paths":"4,6"
+        },
+        {
+            "TimeAxis":6,
+            "KindIDs":"3,5",
+            "Paths":"4,6"
+        }]]
+}

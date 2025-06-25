@@ -1,0 +1,21 @@
+{
+    "Host": "127.0.0.1:36531",
+    "Dsn": "root:mysql_AFajwC@tcp(16.162.178.74:3306)/newstars2",
+    "Dsn2": "root:mysql_AFajwC@tcp(16.162.178.74:3306)/newstars2",
+    "Dbtype": "mysql",
+    "SmsAcc": "C56329797a",
+    "SmsKey": "9c3eb09a6775e6fbf6d89bb1a864f9df",
+    "GuestBaseWealth": 0.50,
+    "BindMobileWealth": 3.00,
+    "AccountBaseWealth": 1.50,
+    "BindSaleHost": "http://127.0.0.1:20000",
+    "IPLimitCount": 5,
+    "IPCheckInterval": 3600,
+    "IPUnlockInterval": 86400,
+    "Products": {
+        "com.douai.product1": 60,
+        "com.wpoker.fun.product1": 120,
+        "com.douqu.product1": 180,
+        "com.paobing.buy1": 250
+    }
+}

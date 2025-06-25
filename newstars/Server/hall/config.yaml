@@ -1,0 +1,28 @@
+redis:
+  db: 14
+  addr: 16.162.178.74:6379
+  password: "redis_6SpKyB"
+  isCluster: false
+
+mysql:
+  path: "16.162.178.74"
+  port: "3306"
+  config: ""
+  db-name: "newstars"
+  username: "root"
+  password: "mysql_AFajwC"
+  max-idle-conns: 10
+  max-open-conns: 100
+  log-mode: ""
+  log-zap: false
+  singular: true
+
+zap:
+  level: info
+  format: console
+  prefix: "[hall]"
+  director: log
+  show-line: true
+  encode-level: LowercaseColorLevelEncoder
+  stacktrace-key: stacktrace
+  log-in-console: true

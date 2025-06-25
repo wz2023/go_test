@@ -1,0 +1,54 @@
+[blackjack]2025/06/25 - 09:31:46.110	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/redisx/redis_client.go:56	redis connect ping response:PONG
+[blackjack]2025/06/25 - 09:31:46.116	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/redisx/redis_client.go:59	redis client connect success
+[blackjack]2025/06/25 - 09:31:46.135	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/Server/blackjack/main.go:32	blackjackServer main
+[blackjack]2025/06/25 - 09:31:46.136	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/Server/blackjack/main.go:33	blackjackServer Go Go Go Version:V1.0.0.r0+4M:6331dc1
+[blackjack]2025/06/25 - 09:31:46.136	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/core/server/handler.go:294	registered service C3000001
+[blackjack]2025/06/25 - 09:31:46.137	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/core/server/handler.go:294	registered service C3000002
+[blackjack]2025/06/25 - 09:31:46.137	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/core/server/handler.go:294	registered service C3010002
+[blackjack]2025/06/25 - 09:31:46.137	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/core/server/handler.go:294	registered service C3010003
+[blackjack]2025/06/25 - 09:31:46.137	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/core/server/app.go:54	starting application ___go_build_newstars_Server_blackjack.exe, listen at 127.0.0.1:36532
+[blackjack]2025/06/25 - 09:55:45.013	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/core/server/app.go:63	got signal interrupt
+[blackjack]2025/06/25 - 09:55:45.014	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/core/server/app.go:66	server is stopping...
+[blackjack]2025/06/25 - 14:28:37.776	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/redisx/redis_client.go:56	redis connect ping response:PONG
+[blackjack]2025/06/25 - 14:28:37.778	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/redisx/redis_client.go:59	redis client connect success
+[blackjack]2025/06/25 - 14:28:37.807	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/Server/blackjack/main.go:32	blackjackServer main
+[blackjack]2025/06/25 - 14:28:37.807	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/Server/blackjack/main.go:33	blackjackServer Go Go Go Version:V1.0.0.r0+4M:6331dc1
+[blackjack]2025/06/25 - 14:28:37.808	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/core/server/handler.go:294	registered service C3000001
+[blackjack]2025/06/25 - 14:28:37.808	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/core/server/handler.go:294	registered service C3000002
+[blackjack]2025/06/25 - 14:28:37.808	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/core/server/handler.go:294	registered service C3010002
+[blackjack]2025/06/25 - 14:28:37.808	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/core/server/handler.go:294	registered service C3010003
+[blackjack]2025/06/25 - 14:28:37.808	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/core/server/app.go:54	starting application ___go_build_newstars_Server_blackjack.exe, listen at 127.0.0.1:36532
+[blackjack]2025/06/25 - 14:30:12.655	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/core/server/app.go:63	got signal interrupt
+[blackjack]2025/06/25 - 14:30:12.656	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/core/server/app.go:66	server is stopping...
+[blackjack]2025/06/25 - 14:30:17.581	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/redisx/redis_client.go:56	redis connect ping response:PONG
+[blackjack]2025/06/25 - 14:30:17.581	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/redisx/redis_client.go:59	redis client connect success
+[blackjack]2025/06/25 - 14:30:17.601	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/Server/blackjack/main.go:32	blackjackServer main
+[blackjack]2025/06/25 - 14:30:17.601	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/Server/blackjack/main.go:33	blackjackServer Go Go Go Version:V1.0.0.r0+4M:6331dc1
+[blackjack]2025/06/25 - 14:30:17.601	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/core/server/handler.go:294	registered service C3000002
+[blackjack]2025/06/25 - 14:30:17.601	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/core/server/handler.go:294	registered service C3010002
+[blackjack]2025/06/25 - 14:30:17.601	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/core/server/handler.go:294	registered service C3010003
+[blackjack]2025/06/25 - 14:30:17.601	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/core/server/handler.go:294	registered service C3000001
+[blackjack]2025/06/25 - 14:30:17.602	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/core/server/app.go:54	starting application ___go_build_newstars_Server_blackjack.exe, listen at 127.0.0.1:36532
+[blackjack]2025/06/25 - 14:31:57.765	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/core/server/handler.go:194	New session established: Remote=127.0.0.1:63574, LastTime=1750833117
+[blackjack]2025/06/25 - 14:32:27.765	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/core/server/agent.go:209	Session heartbeat timeout, LastTime=1750833117, Deadline=1750833127
+[blackjack]2025/06/25 - 14:32:27.769	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/core/server/agent.go:156	Session closed, Id=2, IP=127.0.0.1:63574
+[blackjack]2025/06/25 - 14:32:27.770	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/core/server/handler.go:210	Read message error: read tcp 127.0.0.1:36532->127.0.0.1:63574: use of closed network connection, session will be closed immediately
+[blackjack]2025/06/25 - 14:32:27.771	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/core/server/handler.go:201	Session read goroutine exit, SessionID=2, UID=%!d(string=)
+[blackjack]2025/06/25 - 14:32:27.771	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/core/server/agent.go:200	Session write goroutine exit, SessionID=2, UID=
+[blackjack]2025/06/25 - 15:06:13.918	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/core/server/handler.go:194	New session established: Remote=127.0.0.1:49320, LastTime=1750835173
+[blackjack]2025/06/25 - 15:09:15.988	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/core/server/handler.go:210	Read message error: read tcp 127.0.0.1:36532->127.0.0.1:49320: wsarecv: An existing connection was forcibly closed by the remote host., session will be closed immediately
+[blackjack]2025/06/25 - 15:09:15.988	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/core/server/agent.go:156	Session closed, Id=3, IP=127.0.0.1:49320
+[blackjack]2025/06/25 - 15:09:15.989	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/core/server/agent.go:200	Session write goroutine exit, SessionID=3, UID=
+[blackjack]2025/06/25 - 15:09:15.989	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/core/server/handler.go:201	Session read goroutine exit, SessionID=3, UID=%!d(string=)
+[blackjack]2025/06/25 - 15:09:24.075	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/core/server/handler.go:194	New session established: Remote=127.0.0.1:49815, LastTime=1750835364
+[blackjack]2025/06/25 - 15:34:37.715	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/core/server/handler.go:194	New session established: Remote=127.0.0.1:51286, LastTime=1750836877
+[blackjack]2025/06/25 - 15:34:37.720	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/core/server/handler.go:210	Read message error: read tcp 127.0.0.1:36532->127.0.0.1:51286: wsarecv: An existing connection was forcibly closed by the remote host., session will be closed immediately
+[blackjack]2025/06/25 - 15:34:37.720	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/core/server/agent.go:156	Session closed, Id=5, IP=127.0.0.1:51286
+[blackjack]2025/06/25 - 15:34:37.720	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/core/server/handler.go:201	Session read goroutine exit, SessionID=5, UID=%!d(string=)
+[blackjack]2025/06/25 - 15:34:37.721	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/core/server/agent.go:200	Session write goroutine exit, SessionID=5, UID=
+[blackjack]2025/06/25 - 15:34:51.509	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/core/server/handler.go:210	Read message error: read tcp 127.0.0.1:36532->127.0.0.1:49815: wsarecv: An existing connection was forcibly closed by the remote host., session will be closed immediately
+[blackjack]2025/06/25 - 15:34:51.510	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/core/server/agent.go:156	Session closed, Id=4, IP=127.0.0.1:49815
+[blackjack]2025/06/25 - 15:34:51.510	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/core/server/handler.go:201	Session read goroutine exit, SessionID=4, UID=%!d(string=)
+[blackjack]2025/06/25 - 15:34:51.510	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/core/server/agent.go:200	Session write goroutine exit, SessionID=4, UID=
+[blackjack]2025/06/25 - 15:35:03.048	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/core/server/app.go:63	got signal interrupt
+[blackjack]2025/06/25 - 15:35:03.049	[34minfo[0m	D:/Code/GoGameServer/fish_game/newstars/framework/core/server/app.go:66	server is stopping...

@@ -1,0 +1,1368 @@
+{
+    "Host": "127.0.0.1:36539",
+    "Dsn": "root:123456@tcp(127.0.0.1:3306)/newstars2",
+    "Dbtype": "mysql",
+    "ExtraCommission": {
+        "0": 0.000,
+        "1": 0.000,
+        "2": -0.005
+    },
+    "FishTide": [
+        {
+            "TideData": [
+                {
+                    "TimeAxis": 2000,
+                    "KindIDs": "0,5,5,0",
+                    "Paths": "1000,1001,1004,1005"
+                },
+                {
+                    "TimeAxis": 4000,
+                    "KindIDs": "0,5,5,0",
+                    "Paths": "1000,1001,1004,1005"
+                },
+                {
+                    "TimeAxis": 6000,
+                    "KindIDs": "0,5,26,26,5,0",
+                    "Paths": "1000,1001,1002,1003,1004,1005"
+                },
+                {
+                    "TimeAxis": 8000,
+                    "KindIDs": "0,5,5,0",
+                    "Paths": "1000,1001,1004,1005"
+                },
+                {
+                    "TimeAxis": 10000,
+                    "KindIDs": "0,5,5,0",
+                    "Paths": "1000,1001,1004,1005"
+                },
+                {
+                    "TimeAxis": 12000,
+                    "KindIDs": "0,5,5,0",
+                    "Paths": "1000,1001,1004,1005"
+                },
+                {
+                    "TimeAxis": 14000,
+                    "KindIDs": "0,5,26,26,5,0",
+                    "Paths": "1000,1001,1002,1003,1004,1005"
+                },
+                {
+                    "TimeAxis": 16000,
+                    "KindIDs": "0,5,5,0",
+                    "Paths": "1000,1001,1004,1005"
+                },
+                {
+                    "TimeAxis": 18000,
+                    "KindIDs": "0,5,5,0",
+                    "Paths": "1000,1001,1004,1005"
+                },
+                {
+                    "TimeAxis": 20000,
+                    "KindIDs": "0,5,5,0",
+                    "Paths": "1000,1001,1004,1005"
+                },
+                {
+                    "TimeAxis": 22000,
+                    "KindIDs": "0,5,26,26,5,0",
+                    "Paths": "1000,1001,1002,1003,1004,1005"
+                },
+                {
+                    "TimeAxis": 24000,
+                    "KindIDs": "0,5,5,0",
+                    "Paths": "1000,1001,1004,1005"
+                },
+                {
+                    "TimeAxis": 26000,
+                    "KindIDs": "0,5,5,0",
+                    "Paths": "1000,1001,1004,1005"
+                },
+                {
+                    "TimeAxis": 28000,
+                    "KindIDs": "0,5,5,0",
+                    "Paths": "1000,1001,1004,1005"
+                },
+                {
+                    "TimeAxis": 30000,
+                    "KindIDs": "0,5,26,26,5,0",
+                    "Paths": "1000,1001,1002,1003,1004,1005"
+                },
+                {
+                    "TimeAxis": 32000,
+                    "KindIDs": "0,5,5,0",
+                    "Paths": "1000,1001,1004,1005"
+                },
+                {
+                    "TimeAxis": 34000,
+                    "KindIDs": "0,5,5,0",
+                    "Paths": "1000,1001,1004,1005"
+                },
+                {
+                    "TimeAxis": 36000,
+                    "KindIDs": "0,5,5,0",
+                    "Paths": "1000,1001,1004,1005"
+                },
+                {
+                    "TimeAxis": 38000,
+                    "KindIDs": "0,5,26,26,5,0",
+                    "Paths": "1000,1001,1002,1003,1004,1005"
+                },
+                {
+                    "TimeAxis": 40000,
+                    "KindIDs": "0,5,5,0",
+                    "Paths": "1000,1001,1004,1005"
+                },
+                {
+                    "TimeAxis": 42000,
+                    "KindIDs": "0,5,5,0",
+                    "Paths": "1000,1001,1004,1005"
+                },
+                {
+                    "TimeAxis": 44000,
+                    "KindIDs": "0,5,5,0",
+                    "Paths": "1000,1001,1004,1005"
+                },
+                {
+                    "TimeAxis": 46000,
+                    "KindIDs": "0,5,26,26,5,0",
+                    "Paths": "1000,1001,1002,1003,1004,1005"
+                },
+                {
+                    "TimeAxis": 48000,
+                    "KindIDs": "0,5,5,0",
+                    "Paths": "1000,1001,1004,1005"
+                },
+                {
+                    "TimeAxis": 50000,
+                    "KindIDs": "0,5,5,0",
+                    "Paths": "1000,1001,1004,1005"
+                },
+                {
+                    "TimeAxis": 52000,
+                    "KindIDs": "0,5,5,0",
+                    "Paths": "1000,1001,1004,1005"
+                }
+            ],
+            "TimeUnit": 2000,
+            "Delay": 20000
+        },
+        {
+            "TideData": [
+                {
+                    "TimeAxis": 1800,
+                    "KindIDs": "6,6",
+                    "Paths": "2002,2004"
+                },
+                {
+                    "TimeAxis": 2100,
+                    "KindIDs": "5,5",
+                    "Paths": "2000,2006"
+                },
+                {
+                    "TimeAxis": 2800,
+                    "KindIDs": "6,6",
+                    "Paths": "2001,2005"
+                },
+                {
+                    "TimeAxis": 3500,
+                    "KindIDs": "5,5",
+                    "Paths": "2000,2006"
+                },
+                {
+                    "TimeAxis": 4200,
+                    "KindIDs": "6,17,6",
+                    "Paths": "2001,2003,2005"
+                },
+                {
+                    "TimeAxis": 4900,
+                    "KindIDs": "5,5",
+                    "Paths": "2000,2006"
+                },
+                {
+                    "TimeAxis": 5600,
+                    "KindIDs": "6,6",
+                    "Paths": "2001,2005"
+                },
+                {
+                    "TimeAxis": 6300,
+                    "KindIDs": "5,5",
+                    "Paths": "2000,2006"
+                },
+                {
+                    "TimeAxis": 6600,
+                    "KindIDs": "6,6",
+                    "Paths": "2002,2004"
+                },
+                {
+                    "TimeAxis": 7700,
+                    "KindIDs": "5,5",
+                    "Paths": "2000,2006"
+                },
+                {
+                    "TimeAxis": 9100,
+                    "KindIDs": "5,5",
+                    "Paths": "2000,2006"
+                },
+                {
+                    "TimeAxis": 10200,
+                    "KindIDs": "6,6",
+                    "Paths": "2002,2004"
+                },
+                {
+                    "TimeAxis": 10500,
+                    "KindIDs": "5,5",
+                    "Paths": "2000,2006"
+                },
+                {
+                    "TimeAxis": 11200,
+                    "KindIDs": "6,6",
+                    "Paths": "2001,2005"
+                },
+                {
+                    "TimeAxis": 11900,
+                    "KindIDs": "5,5",
+                    "Paths": "2000,2006"
+                },
+                {
+                    "TimeAxis": 12600,
+                    "KindIDs": "6,6",
+                    "Paths": "2001,2005"
+                },
+                {
+                    "TimeAxis": 13300,
+                    "KindIDs": "5,19,5",
+                    "Paths": "2000,2003,2006"
+                },
+                {
+                    "TimeAxis": 14000,
+                    "KindIDs": "6,6",
+                    "Paths": "2001,2005"
+                },
+                {
+                    "TimeAxis": 14700,
+                    "KindIDs": "5,5",
+                    "Paths": "2000,2006"
+                },
+                {
+                    "TimeAxis": 15000,
+                    "KindIDs": "6,6",
+                    "Paths": "2002,2004"
+                },
+                {
+                    "TimeAxis": 16100,
+                    "KindIDs": "5,5",
+                    "Paths": "2000,2006"
+                },
+                {
+                    "TimeAxis": 17500,
+                    "KindIDs": "5,5",
+                    "Paths": "2000,2006"
+                },
+                {
+                    "TimeAxis": 18600,
+                    "KindIDs": "6,6",
+                    "Paths": "2002,2004"
+                },
+                {
+                    "TimeAxis": 18900,
+                    "KindIDs": "5,5",
+                    "Paths": "2000,2006"
+                },
+                {
+                    "TimeAxis": 19600,
+                    "KindIDs": "6,6",
+                    "Paths": "2001,2005"
+                },
+                {
+                    "TimeAxis": 20300,
+                    "KindIDs": "5,5",
+                    "Paths": "2000,2006"
+                },
+                {
+                    "TimeAxis": 21000,
+                    "KindIDs": "6,20,6",
+                    "Paths": "2001,2003,2005"
+                },
+                {
+                    "TimeAxis": 21700,
+                    "KindIDs": "5,5",
+                    "Paths": "2000,2006"
+                },
+                {
+                    "TimeAxis": 22400,
+                    "KindIDs": "6,6",
+                    "Paths": "2001,2005"
+                },
+                {
+                    "TimeAxis": 23100,
+                    "KindIDs": "5,5",
+                    "Paths": "2000,2006"
+                },
+                {
+                    "TimeAxis": 23400,
+                    "KindIDs": "6,6",
+                    "Paths": "2002,2004"
+                },
+                {
+                    "TimeAxis": 24500,
+                    "KindIDs": "5,5",
+                    "Paths": "2000,2006"
+                },
+                {
+                    "TimeAxis": 25900,
+                    "KindIDs": "5,5",
+                    "Paths": "2000,2006"
+                },
+                {
+                    "TimeAxis": 27000,
+                    "KindIDs": "6,6",
+                    "Paths": "2002,2004"
+                },
+                {
+                    "TimeAxis": 27300,
+                    "KindIDs": "5,5",
+                    "Paths": "2000,2006"
+                },
+                {
+                    "TimeAxis": 28000,
+                    "KindIDs": "6,6",
+                    "Paths": "2001,2005"
+                },
+                {
+                    "TimeAxis": 28700,
+                    "KindIDs": "5,5",
+                    "Paths": "2000,2006"
+                },
+                {
+                    "TimeAxis": 29400,
+                    "KindIDs": "6,22,6",
+                    "Paths": "2001,2003,2005"
+                },
+                {
+                    "TimeAxis": 30100,
+                    "KindIDs": "5,5",
+                    "Paths": "2000,2006"
+                },
+                {
+                    "TimeAxis": 30800,
+                    "KindIDs": "6,6",
+                    "Paths": "2001,2005"
+                },
+                {
+                    "TimeAxis": 31500,
+                    "KindIDs": "5,5",
+                    "Paths": "2000,2006"
+                },
+                {
+                    "TimeAxis": 31800,
+                    "KindIDs": "6,6",
+                    "Paths": "2002,2004"
+                },
+                {
+                    "TimeAxis": 32900,
+                    "KindIDs": "5,5",
+                    "Paths": "2000,2006"
+                },
+                {
+                    "TimeAxis": 34300,
+                    "KindIDs": "5,5",
+                    "Paths": "2000,2006"
+                },
+                {
+                    "TimeAxis": 35400,
+                    "KindIDs": "6,6",
+                    "Paths": "2002,2004"
+                },
+                {
+                    "TimeAxis": 35700,
+                    "KindIDs": "5,5",
+                    "Paths": "2000,2006"
+                },
+                {
+                    "TimeAxis": 36400,
+                    "KindIDs": "6,6",
+                    "Paths": "2001,2005"
+                },
+                {
+                    "TimeAxis": 37100,
+                    "KindIDs": "5,5",
+                    "Paths": "2000,2006"
+                },
+                {
+                    "TimeAxis": 37800,
+                    "KindIDs": "6,23,6",
+                    "Paths": "2001,2003,2005"
+                },
+                {
+                    "TimeAxis": 38500,
+                    "KindIDs": "5,5",
+                    "Paths": "2000,2006"
+                },
+                {
+                    "TimeAxis": 39200,
+                    "KindIDs": "6,6",
+                    "Paths": "2001,2005"
+                },
+                {
+                    "TimeAxis": 39900,
+                    "KindIDs": "5,5",
+                    "Paths": "2000,2006"
+                },
+                {
+                    "TimeAxis": 40200,
+                    "KindIDs": "6,6",
+                    "Paths": "2002,2004"
+                }
+            ],
+            "TimeUnit": 700,
+            "Delay": 20000
+        },
+        {
+            "TideData": [
+                {
+                    "TimeAxis": 1200,
+                    "KindIDs": "4,4",
+                    "Paths": "3004,3006"
+                },
+                {
+                    "TimeAxis": 1600,
+                    "KindIDs": "4,4",
+                    "Paths": "3003,3007"
+                },
+                {
+                    "TimeAxis": 2000,
+                    "KindIDs": "4,4",
+                    "Paths": "3004,3006"
+                },
+                {
+                    "TimeAxis": 2400,
+                    "KindIDs": "4,4",
+                    "Paths": "3003,3007"
+                },
+                {
+                    "TimeAxis": 3200,
+                    "KindIDs": "4,4",
+                    "Paths": "3003,3007"
+                },
+                {
+                    "TimeAxis": 4000,
+                    "KindIDs": "4,4",
+                    "Paths": "3003,3007"
+                },
+                {
+                    "TimeAxis": 4400,
+                    "KindIDs": "4,25,4",
+                    "Paths": "3002,3005,3008"
+                },
+                {
+                    "TimeAxis": 4800,
+                    "KindIDs": "4,4",
+                    "Paths": "3001,3009"
+                },
+                {
+                    "TimeAxis": 5200,
+                    "KindIDs": "4,4",
+                    "Paths": "3000,3010"
+                },
+                {
+                    "TimeAxis": 5600,
+                    "KindIDs": "4,4",
+                    "Paths": "3003,3007"
+                },
+                {
+                    "TimeAxis": 6000,
+                    "KindIDs": "4,4,4,4",
+                    "Paths": "3000,3002,3008,3010"
+                },
+                {
+                    "TimeAxis": 6400,
+                    "KindIDs": "4,4,4,4",
+                    "Paths": "3001,3003,3007,3009"
+                },
+                {
+                    "TimeAxis": 6800,
+                    "KindIDs": "4,4",
+                    "Paths": "3000,3010"
+                },
+                {
+                    "TimeAxis": 7200,
+                    "KindIDs": "4,4",
+                    "Paths": "3003,3007"
+                },
+                {
+                    "TimeAxis": 8000,
+                    "KindIDs": "4,4",
+                    "Paths": "3003,3007"
+                },
+                {
+                    "TimeAxis": 8800,
+                    "KindIDs": "4,4",
+                    "Paths": "3003,3007"
+                },
+                {
+                    "TimeAxis": 9600,
+                    "KindIDs": "4,4,4,4,4,4",
+                    "Paths": "3002,3003,3004,3006,3007,3008"
+                },
+                {
+                    "TimeAxis": 10400,
+                    "KindIDs": "4,4,4,4,4,4,4,4",
+                    "Paths": "3001,3002,3003,3004,3006,3007,3008,3009"
+                },
+                {
+                    "TimeAxis": 13600,
+                    "KindIDs": "4,4",
+                    "Paths": "3004,3006"
+                },
+                {
+                    "TimeAxis": 14000,
+                    "KindIDs": "4,4",
+                    "Paths": "3003,3007"
+                },
+                {
+                    "TimeAxis": 14400,
+                    "KindIDs": "4,4",
+                    "Paths": "3004,3006"
+                },
+                {
+                    "TimeAxis": 14800,
+                    "KindIDs": "4,4",
+                    "Paths": "3003,3007"
+                },
+                {
+                    "TimeAxis": 15600,
+                    "KindIDs": "4,4",
+                    "Paths": "3003,3007"
+                },
+                {
+                    "TimeAxis": 16400,
+                    "KindIDs": "4,4",
+                    "Paths": "3003,3007"
+                },
+                {
+                    "TimeAxis": 16800,
+                    "KindIDs": "4,25,4",
+                    "Paths": "3002,3005,3008"
+                },
+                {
+                    "TimeAxis": 17200,
+                    "KindIDs": "4,4",
+                    "Paths": "3001,3009"
+                },
+                {
+                    "TimeAxis": 17600,
+                    "KindIDs": "4,4",
+                    "Paths": "3000,3010"
+                },
+                {
+                    "TimeAxis": 18000,
+                    "KindIDs": "4,4",
+                    "Paths": "3003,3007"
+                },
+                {
+                    "TimeAxis": 18400,
+                    "KindIDs": "4,4,4,4",
+                    "Paths": "3000,3002,3008,3010"
+                },
+                {
+                    "TimeAxis": 18800,
+                    "KindIDs": "4,4,4,4",
+                    "Paths": "3001,3003,3007,3009"
+                },
+                {
+                    "TimeAxis": 17600,
+                    "KindIDs": "4,4",
+                    "Paths": "3000,3010"
+                },
+                {
+                    "TimeAxis": 19600,
+                    "KindIDs": "4,4",
+                    "Paths": "3003,3007"
+                },
+                {
+                    "TimeAxis": 20400,
+                    "KindIDs": "4,4",
+                    "Paths": "3003,3007"
+                },
+                {
+                    "TimeAxis": 21200,
+                    "KindIDs": "4,4",
+                    "Paths": "3003,3007"
+                },
+                {
+                    "TimeAxis": 22000,
+                    "KindIDs": "4,4,4,4,4,4",
+                    "Paths": "3002,3003,3004,3006,3007,3008"
+                },
+                {
+                    "TimeAxis": 22800,
+                    "KindIDs": "4,4,4,4,4,4,4,4",
+                    "Paths": "3001,3002,3003,3004,3006,3007,3008,3009"
+                },
+                {
+                    "TimeAxis": 26000,
+                    "KindIDs": "4,4",
+                    "Paths": "3004,3006"
+                },
+                {
+                    "TimeAxis": 26400,
+                    "KindIDs": "4,4",
+                    "Paths": "3003,3007"
+                },
+                {
+                    "TimeAxis": 26800,
+                    "KindIDs": "4,4",
+                    "Paths": "3004,3006"
+                },
+                {
+                    "TimeAxis": 27200,
+                    "KindIDs": "4,4",
+                    "Paths": "3003,3007"
+                },
+                {
+                    "TimeAxis": 28000,
+                    "KindIDs": "4,4",
+                    "Paths": "3003,3007"
+                },
+                {
+                    "TimeAxis": 28800,
+                    "KindIDs": "4,4",
+                    "Paths": "3003,3007"
+                },
+                {
+                    "TimeAxis": 29200,
+                    "KindIDs": "4,25,4",
+                    "Paths": "3002,3005,3008"
+                },
+                {
+                    "TimeAxis": 29600,
+                    "KindIDs": "4,4",
+                    "Paths": "3001,3009"
+                },
+                {
+                    "TimeAxis": 30000,
+                    "KindIDs": "4,4",
+                    "Paths": "3000,3010"
+                },
+                {
+                    "TimeAxis": 30400,
+                    "KindIDs": "4,4",
+                    "Paths": "3003,3007"
+                },
+                {
+                    "TimeAxis": 30800,
+                    "KindIDs": "4,4,4,4",
+                    "Paths": "3000,3002,3008,3010"
+                },
+                {
+                    "TimeAxis": 31200,
+                    "KindIDs": "4,4,4,4",
+                    "Paths": "3001,3003,3007,3009"
+                },
+                {
+                    "TimeAxis": 31600,
+                    "KindIDs": "4,4",
+                    "Paths": "3000,3010"
+                },
+                {
+                    "TimeAxis": 32000,
+                    "KindIDs": "4,4",
+                    "Paths": "3003,3007"
+                },
+                {
+                    "TimeAxis": 32800,
+                    "KindIDs": "4,4",
+                    "Paths": "3003,3007"
+                },
+                {
+                    "TimeAxis": 33600,
+                    "KindIDs": "4,4",
+                    "Paths": "3003,3007"
+                },
+                {
+                    "TimeAxis": 34400,
+                    "KindIDs": "4,4,4,4,4,4",
+                    "Paths": "3002,3003,3004,3006,3007,3008"
+                },
+                {
+                    "TimeAxis": 35200,
+                    "KindIDs": "4,4,4,4,4,4,4,4",
+                    "Paths": "3001,3002,3003,3004,3006,3007,3008,3009"
+                }
+            ],
+            "TimeUnit": 400,
+            "Delay": 20000
+        },
+        {
+            "TideData": [
+                {
+                    "TimeAxis": 1300,
+                    "KindIDs": "0",
+                    "Paths": "4006"
+                },
+                {
+                    "TimeAxis": 1500,
+                    "KindIDs": "0,0",
+                    "Paths": "4007,4004"
+                },
+                {
+                    "TimeAxis": 1950,
+                    "KindIDs": "0",
+                    "Paths": "4008"
+                },
+                {
+                    "TimeAxis": 2150,
+                    "KindIDs": "0",
+                    "Paths": "4002"
+                },
+                {
+                    "TimeAxis": 2400,
+                    "KindIDs": "0",
+                    "Paths": "4009"
+                },
+                {
+                    "TimeAxis": 3000,
+                    "KindIDs": "0",
+                    "Paths": "4010"
+                },
+                {
+                    "TimeAxis": 3050,
+                    "KindIDs": "0",
+                    "Paths": "4000"
+                },
+                {
+                    "TimeAxis": 3900,
+                    "KindIDs": "0,0",
+                    "Paths": "4011,4002"
+                },
+                {
+                    "TimeAxis": 4200,
+                    "KindIDs": "11",
+                    "Paths": "4007"
+                },
+                {
+                    "TimeAxis": 4800,
+                    "KindIDs": "0,0",
+                    "Paths": "4012,4005"
+                },
+                {
+                    "TimeAxis": 5700,
+                    "KindIDs": "0,0",
+                    "Paths": "4011,4002"
+                },
+                {
+                    "TimeAxis": 6550,
+                    "KindIDs": "0",
+                    "Paths": "4000"
+                },
+                {
+                    "TimeAxis": 6600,
+                    "KindIDs": "0",
+                    "Paths": "4010"
+                },
+                {
+                    "TimeAxis": 6800,
+                    "KindIDs": "0,0",
+                    "Paths": "4007,4004"
+                },
+                {
+                    "TimeAxis": 7200,
+                    "KindIDs": "0",
+                    "Paths": "4009"
+                },
+                {
+                    "TimeAxis": 7250,
+                    "KindIDs": "0",
+                    "Paths": "4008"
+                },
+                {
+                    "TimeAxis": 7450,
+                    "KindIDs": "0",
+                    "Paths": "4002"
+                },
+                {
+                    "TimeAxis": 7650,
+                    "KindIDs": "0",
+                    "Paths": "4008"
+                },
+                {
+                    "TimeAxis": 7700,
+                    "KindIDs": "0",
+                    "Paths": "4009"
+                },
+                {
+                    "TimeAxis": 8100,
+                    "KindIDs": "0,0",
+                    "Paths": "4007,4004"
+                },
+                {
+                    "TimeAxis": 8300,
+                    "KindIDs": "0,0",
+                    "Paths": "4006,4010"
+                },
+                {
+                    "TimeAxis": 8350,
+                    "KindIDs": "0",
+                    "Paths": "4000"
+                },
+                {
+                    "TimeAxis": 9200,
+                    "KindIDs": "0,0",
+                    "Paths": "4011,4002"
+                },
+                {
+                    "TimeAxis": 10100,
+                    "KindIDs": "0,0",
+                    "Paths": "4012,4005"
+                },
+                {
+                    "TimeAxis": 10800,
+                    "KindIDs": "17",
+                    "Paths": "4007"
+                },
+                {
+                    "TimeAxis": 11000,
+                    "KindIDs": "0,0",
+                    "Paths": "4011,4002"
+                },
+                {
+                    "TimeAxis": 11850,
+                    "KindIDs": "0",
+                    "Paths": "4000"
+                },
+                {
+                    "TimeAxis": 11900,
+                    "KindIDs": "0",
+                    "Paths": "4010"
+                },
+                {
+                    "TimeAxis": 12500,
+                    "KindIDs": "0",
+                    "Paths": "4009"
+                },
+                {
+                    "TimeAxis": 12750,
+                    "KindIDs": "0",
+                    "Paths": "4002"
+                },
+                {
+                    "TimeAxis": 12950,
+                    "KindIDs": "0",
+                    "Paths": "4008"
+                },
+                {
+                    "TimeAxis": 13400,
+                    "KindIDs": "0,0",
+                    "Paths": "4007,4004"
+                },
+                {
+                    "TimeAxis": 13600,
+                    "KindIDs": "0",
+                    "Paths": "4006"
+                },
+                {
+                    "TimeAxis": 15300,
+                    "KindIDs": "0",
+                    "Paths": "4006"
+                },
+                {
+                    "TimeAxis": 15500,
+                    "KindIDs": "0,0",
+                    "Paths": "4007,4004"
+                },
+                {
+                    "TimeAxis": 15950,
+                    "KindIDs": "0",
+                    "Paths": "4008"
+                },
+                {
+                    "TimeAxis": 16150,
+                    "KindIDs": "0",
+                    "Paths": "4002"
+                },
+                {
+                    "TimeAxis": 16400,
+                    "KindIDs": "0",
+                    "Paths": "4009"
+                },
+                {
+                    "TimeAxis": 17000,
+                    "KindIDs": "0",
+                    "Paths": "4010"
+                },
+                {
+                    "TimeAxis": 17050,
+                    "KindIDs": "0",
+                    "Paths": "4000"
+                },
+                {
+                    "TimeAxis": 17900,
+                    "KindIDs": "0,0",
+                    "Paths": "4011,4002"
+                },
+                {
+                    "TimeAxis": 18300,
+                    "KindIDs": "14",
+                    "Paths": "4007"
+                },
+                {
+                    "TimeAxis": 18800,
+                    "KindIDs": "0,0",
+                    "Paths": "4012,4005"
+                },
+                {
+                    "TimeAxis": 19700,
+                    "KindIDs": "0,0",
+                    "Paths": "4011,4002"
+                },
+                {
+                    "TimeAxis": 20550,
+                    "KindIDs": "0",
+                    "Paths": "4000"
+                },
+                {
+                    "TimeAxis": 20600,
+                    "KindIDs": "0",
+                    "Paths": "4010"
+                },
+                {
+                    "TimeAxis": 20800,
+                    "KindIDs": "0,0",
+                    "Paths": "4007,4004"
+                },
+                {
+                    "TimeAxis": 21200,
+                    "KindIDs": "0",
+                    "Paths": "4009"
+                },
+                {
+                    "TimeAxis": 21250,
+                    "KindIDs": "0",
+                    "Paths": "4008"
+                },
+                {
+                    "TimeAxis": 21450,
+                    "KindIDs": "0",
+                    "Paths": "4002"
+                },
+                {
+                    "TimeAxis": 21650,
+                    "KindIDs": "0",
+                    "Paths": "4008"
+                },
+                {
+                    "TimeAxis": 21700,
+                    "KindIDs": "0",
+                    "Paths": "4009"
+                },
+                {
+                    "TimeAxis": 22100,
+                    "KindIDs": "0,0",
+                    "Paths": "4007,4004"
+                },
+                {
+                    "TimeAxis": 22300,
+                    "KindIDs": "0,0",
+                    "Paths": "4006,4010"
+                },
+                {
+                    "TimeAxis": 22350,
+                    "KindIDs": "0",
+                    "Paths": "4000"
+                },
+                {
+                    "TimeAxis": 23200,
+                    "KindIDs": "0,0",
+                    "Paths": "4011,4002"
+                },
+                {
+                    "TimeAxis": 24100,
+                    "KindIDs": "0,0",
+                    "Paths": "4012,4005"
+                },
+                {
+                    "TimeAxis": 24800,
+                    "KindIDs": "19",
+                    "Paths": "4007"
+                },
+                {
+                    "TimeAxis": 25000,
+                    "KindIDs": "0,0",
+                    "Paths": "4011,4002"
+                },
+                {
+                    "TimeAxis": 25850,
+                    "KindIDs": "0",
+                    "Paths": "4000"
+                },
+                {
+                    "TimeAxis": 25900,
+                    "KindIDs": "0",
+                    "Paths": "4010"
+                },
+                {
+                    "TimeAxis": 26500,
+                    "KindIDs": "0",
+                    "Paths": "4009"
+                },
+                {
+                    "TimeAxis": 26750,
+                    "KindIDs": "0",
+                    "Paths": "4002"
+                },
+                {
+                    "TimeAxis": 26950,
+                    "KindIDs": "0",
+                    "Paths": "4008"
+                },
+                {
+                    "TimeAxis": 27400,
+                    "KindIDs": "0,0",
+                    "Paths": "4007,4004"
+                },
+                {
+                    "TimeAxis": 27600,
+                    "KindIDs": "0",
+                    "Paths": "4006"
+                },
+                {
+                    "TimeAxis": 29300,
+                    "KindIDs": "0",
+                    "Paths": "4006"
+                },
+                {
+                    "TimeAxis": 29500,
+                    "KindIDs": "0,0",
+                    "Paths": "4007,4004"
+                },
+                {
+                    "TimeAxis": 29950,
+                    "KindIDs": "0",
+                    "Paths": "4008"
+                },
+                {
+                    "TimeAxis": 30150,
+                    "KindIDs": "0",
+                    "Paths": "4002"
+                },
+                {
+                    "TimeAxis": 30400,
+                    "KindIDs": "0",
+                    "Paths": "4009"
+                },
+                {
+                    "TimeAxis": 31000,
+                    "KindIDs": "0",
+                    "Paths": "4010"
+                },
+                {
+                    "TimeAxis": 31050,
+                    "KindIDs": "0",
+                    "Paths": "4000"
+                },
+                {
+                    "TimeAxis": 31900,
+                    "KindIDs": "0,0",
+                    "Paths": "4011,4002"
+                },
+                {
+                    "TimeAxis": 32400,
+                    "KindIDs": "9",
+                    "Paths": "4008"
+                },
+                {
+                    "TimeAxis": 32800,
+                    "KindIDs": "0,0",
+                    "Paths": "4012,4005"
+                },
+                {
+                    "TimeAxis": 33700,
+                    "KindIDs": "0,0",
+                    "Paths": "4011,4002"
+                },
+                {
+                    "TimeAxis": 34550,
+                    "KindIDs": "0",
+                    "Paths": "4000"
+                },
+                {
+                    "TimeAxis": 34600,
+                    "KindIDs": "0",
+                    "Paths": "4010"
+                },
+                {
+                    "TimeAxis": 34800,
+                    "KindIDs": "0,0",
+                    "Paths": "4007,4004"
+                },
+                {
+                    "TimeAxis": 35200,
+                    "KindIDs": "0",
+                    "Paths": "4009"
+                },
+                {
+                    "TimeAxis": 35250,
+                    "KindIDs": "0",
+                    "Paths": "4008"
+                },
+                {
+                    "TimeAxis": 35450,
+                    "KindIDs": "0",
+                    "Paths": "4002"
+                },
+                {
+                    "TimeAxis": 35650,
+                    "KindIDs": "0",
+                    "Paths": "4008"
+                },
+                {
+                    "TimeAxis": 35700,
+                    "KindIDs": "0",
+                    "Paths": "4009"
+                },
+                {
+                    "TimeAxis": 36100,
+                    "KindIDs": "0,0",
+                    "Paths": "4007,4004"
+                },
+                {
+                    "TimeAxis": 36300,
+                    "KindIDs": "0,0",
+                    "Paths": "4006,4010"
+                },
+                {
+                    "TimeAxis": 36350,
+                    "KindIDs": "0",
+                    "Paths": "4000"
+                },
+                {
+                    "TimeAxis": 37200,
+                    "KindIDs": "0,0",
+                    "Paths": "4011,4002"
+                },
+                {
+                    "TimeAxis": 38100,
+                    "KindIDs": "0,0",
+                    "Paths": "4012,4005"
+                },
+                {
+                    "TimeAxis": 38300,
+                    "KindIDs": "20",
+                    "Paths": "4008"
+                },
+                {
+                    "TimeAxis": 39000,
+                    "KindIDs": "0,0",
+                    "Paths": "4011,4002"
+                },
+                {
+                    "TimeAxis": 39850,
+                    "KindIDs": "0",
+                    "Paths": "4000"
+                },
+                {
+                    "TimeAxis": 39900,
+                    "KindIDs": "0",
+                    "Paths": "4010"
+                },
+                {
+                    "TimeAxis": 40500,
+                    "KindIDs": "0",
+                    "Paths": "4009"
+                },
+                {
+                    "TimeAxis": 40750,
+                    "KindIDs": "0",
+                    "Paths": "4002"
+                },
+                {
+                    "TimeAxis": 40950,
+                    "KindIDs": "0",
+                    "Paths": "4008"
+                },
+                {
+                    "TimeAxis": 41400,
+                    "KindIDs": "0,0",
+                    "Paths": "4007,4004"
+                },
+                {
+                    "TimeAxis": 41600,
+                    "KindIDs": "0",
+                    "Paths": "4006"
+                },
+                {
+                    "TimeAxis": 43300,
+                    "KindIDs": "0",
+                    "Paths": "4006"
+                },
+                {
+                    "TimeAxis": 43500,
+                    "KindIDs": "0,0",
+                    "Paths": "4007,4004"
+                },
+                {
+                    "TimeAxis": 43950,
+                    "KindIDs": "0",
+                    "Paths": "4008"
+                },
+                {
+                    "TimeAxis": 44150,
+                    "KindIDs": "0",
+                    "Paths": "4002"
+                },
+                {
+                    "TimeAxis": 44400,
+                    "KindIDs": "0",
+                    "Paths": "4009"
+                },
+                {
+                    "TimeAxis": 45000,
+                    "KindIDs": "0",
+                    "Paths": "4010"
+                },
+                {
+                    "TimeAxis": 45050,
+                    "KindIDs": "0",
+                    "Paths": "4000"
+                },
+                {
+                    "TimeAxis": 45900,
+                    "KindIDs": "0,0",
+                    "Paths": "4011,4002"
+                },
+                {
+                    "TimeAxis": 46200,
+                    "KindIDs": "24",
+                    "Paths": "4007"
+                },
+                {
+                    "TimeAxis": 46800,
+                    "KindIDs": "0,0",
+                    "Paths": "4012,4005"
+                },
+                {
+                    "TimeAxis": 47700,
+                    "KindIDs": "0,0",
+                    "Paths": "4011,4002"
+                },
+                {
+                    "TimeAxis": 48550,
+                    "KindIDs": "0",
+                    "Paths": "4000"
+                },
+                {
+                    "TimeAxis": 48600,
+                    "KindIDs": "0",
+                    "Paths": "4010"
+                },
+                {
+                    "TimeAxis": 48800,
+                    "KindIDs": "0,0",
+                    "Paths": "4007,4004"
+                },
+                {
+                    "TimeAxis": 49200,
+                    "KindIDs": "0",
+                    "Paths": "4009"
+                },
+                {
+                    "TimeAxis": 49250,
+                    "KindIDs": "0",
+                    "Paths": "4008"
+                },
+                {
+                    "TimeAxis": 49450,
+                    "KindIDs": "0",
+                    "Paths": "4002"
+                },
+                {
+                    "TimeAxis": 49650,
+                    "KindIDs": "0",
+                    "Paths": "4008"
+                },
+                {
+                    "TimeAxis": 49700,
+                    "KindIDs": "0",
+                    "Paths": "4009"
+                },
+                {
+                    "TimeAxis": 50100,
+                    "KindIDs": "0,0",
+                    "Paths": "4007,4004"
+                },
+                {
+                    "TimeAxis": 50300,
+                    "KindIDs": "0,0",
+                    "Paths": "4006,4010"
+                },
+                {
+                    "TimeAxis": 50350,
+                    "KindIDs": "0",
+                    "Paths": "4000"
+                },
+                {
+                    "TimeAxis": 51200,
+                    "KindIDs": "0,0",
+                    "Paths": "4011,4002"
+                },
+                {
+                    "TimeAxis": 52100,
+                    "KindIDs": "0,0",
+                    "Paths": "4012,4005"
+                },
+                {
+                    "TimeAxis": 52500,
+                    "KindIDs": "23",
+                    "Paths": "4007"
+                },
+                {
+                    "TimeAxis": 53000,
+                    "KindIDs": "0,0",
+                    "Paths": "4011,4002"
+                },
+                {
+                    "TimeAxis": 53850,
+                    "KindIDs": "0",
+                    "Paths": "4000"
+                },
+                {
+                    "TimeAxis": 53900,
+                    "KindIDs": "0",
+                    "Paths": "4010"
+                },
+                {
+                    "TimeAxis": 54500,
+                    "KindIDs": "0",
+                    "Paths": "4009"
+                },
+                {
+                    "TimeAxis": 54750,
+                    "KindIDs": "0",
+                    "Paths": "4002"
+                },
+                {
+                    "TimeAxis": 54950,
+                    "KindIDs": "0",
+                    "Paths": "4008"
+                },
+                {
+                    "TimeAxis": 55400,
+                    "KindIDs": "0,0",
+                    "Paths": "4007,4004"
+                },
+                {
+                    "TimeAxis": 55600,
+                    "KindIDs": "0",
+                    "Paths": "4006"
+                }
+            ],
+            "TimeUnit": 300,
+            "Delay": 20000
+        }
+    ],
+    "TypeInterval": {
+        "1": 1,
+        "2": 4,
+        "3": 5,
+        "6": 5
+    },
+    "RevenueRate": 0.000
+}

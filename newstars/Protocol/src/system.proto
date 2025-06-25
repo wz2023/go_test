@@ -1,0 +1,119 @@
+syntax = "proto3";
+
+option go_package = "./plr";
+
+// 系统级别协议
+
+// 获取用户信息
+message C0000003 {
+    string UserID = 1; //用户ID
+}
+
+// 返回用户信息
+message S0000003 {
+    int32 RetCode = 1;
+    string UserID = 2;
+    string UserName = 3;
+    double Wealth = 4;
+    int32 FaceID = 5;
+    int32 Sexuality = 6;
+    string IPArea = 7;
+    int32 AccType = 8;
+    int32 Status = 9; //1：游戏中 下面字段生效
+    int32 KindID = 10;
+    int32 RoomID = 11;
+    int32 TableID = 12;
+    int32 SeatNo = 13;
+    string RoundName = 14;
+    int32 VipLevel = 15; //vip等级
+    int32 FaceFrameID=16;  //头像框ID
+}
+
+// Token 登陆
+message C0000018 {
+    string AccountName = 1;
+    string Token = 2;
+    string MachineID = 3; //机器唯一标识码
+    int32 PlatFormID = 4; //平台ID
+    string IPAddr = 5;
+    int32 TerminalType = 6;  //1:IOS,2:Andriod 3:Other
+    string ClientVersion = 7;
+    int32 GameID = 8; //游戏ID
+    string Model = 9; //机型
+    string Version = 10; //系统版本
+}
+
+message S0000018 {
+    int32 RetCode = 1; //返回码
+    string UserID = 2; //id
+    int32 HeatTimes = 3; //心跳时间
+    string Token = 4; //刷新
+}
+
+// 踢玩家下线
+message P1000008 {
+    string UserID = 1;
+    int32 Type = 2;   // 0:被系统踢出 1：异机登陆
+}
+
+// 服务状态变更
+message P1000009 {
+    int32 Status = 1;  // 1:停服
+}
+
+/////////////////////////////////////////////////////////
+
+// 用户入座
+message N0000001 {
+    string UserID = 1;
+    int32 RoomID = 2;
+    int32 TableID = 3;
+    int32 SeatNo = 4;
+}
+
+// 用户离座
+message N0000002 {
+    string UserID = 1;
+}
+
+// 开始牌局
+message N0000003 {
+    int32 TableID = 1;
+    string RoundName = 2;
+}
+
+// 结束牌局
+message N0000004 {
+    string RoundName = 1;
+}
+
+// 用户离线
+message N0000005 {
+    string UserID = 1;
+}
+
+message N0000006 {
+    string UserID = 1;
+    int32 RoomID = 2;
+    int32 TableID = 3;
+    int32 SeatNo = 4;
+}
+
+message N0000007 {
+    string UserID = 1;
+}
+
+// 获取服务器维护状态
+message C0000031 {
+}
+
+message S0000031 {
+    int32 RetCode = 1;
+    int32 ServerState = 2; //1:停服 2:测试 3:开服
+    int64 ServerStopTime = 3;//停服维护时间
+}
+
+//设置停服时间
+message P1000010 {
+    int64 ServerStopTime = 1;
+}

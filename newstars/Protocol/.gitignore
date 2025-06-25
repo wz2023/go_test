@@ -1,0 +1,9 @@
+/Build/
+/tools/Tasker.exe
+/tools/Tasker
+/tools/protoc-gen-go/
+.DS_Store
+tools/build.bat
+.idea
+*.exe
+control.proto

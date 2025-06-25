@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+option go_package = "./plr";
+
+// 游戏通用协议
+
+// 请求房间列表
+message C3000001{
+  int32 GameKindID = 1;         // 游戏类型
+}
+message S3000001{
+  message RoomInfo {
+    int32 RoomID = 1;           // 房间ID
+    double BaseAmount = 2;      // 底分
+    double MinEnterAmount = 3;  // 最低进入额度
+    double MaxEnterAmount = 4;  // 最大进入额度
+    string RoomName = 5;        // 房间名称
+    double MinRatio = 6;
+    double MaxRatio = 7;
+  }
+  int32 RetCode = 1;            // 状态码
+  repeated RoomInfo Rooms = 2;  // 房间列表信息
+}
+
+// 请求匹配
+message C3000002 {
+  int32 GameKindID = 1; // 游戏类型
+  int32 RoomID = 2;     // 房间ID
+  string UserID = 3;    // 玩家ID
+}
+message S3000002 {
+  int32 RetCode = 1;    // 状态码
+}
+

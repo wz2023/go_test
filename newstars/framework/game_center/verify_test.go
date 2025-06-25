@@ -1,0 +1,20 @@
+package game_center
+
+import (
+	"testing"
+)
+
+func TestVerifyCustomToken(t *testing.T) {
+	token := "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjEyNSwicGxhdGZvcm0iOjIsInBrZ19uYW1lIjoiYSIsIkJ1ZmZlclRpbWUiOjg2NDAwLCJpc3MiOiJxbVBsdXMiLCJhdWQiOlsiR1ZBIl0sImV4cCI6MTc1MDE1NjUzOCwibmJmIjoxNzQ5NTUxNzM4fQ.7S-dqPiBaBMOF406wZtFHSszzZFjm_E_58WOja61XUc"
+	token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6IjEwMV94aWFvamllIiwidGltZSI6MTc0OTcyMzM1OSwibmlja05hbWUiOiJ4aWFvamllIiwiYWNjb3VudE5hbWUiOiJ4aWFvamllIiwibWVyY2hhbnRJZCI6IjEwMSIsImN1cnJlbmN5IjoiR0MiLCJleHAiOjE3NTAzMjgxNTksImlhdCI6MTc0OTcyMzM1OX0.kLtm-DiGJtTcJbUbrE2CixTMkNbHLbKL_07yPk_vAR0"
+	token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6IjEwMV94aWFvamllIiwidGltZSI6MTc1MDA0MzY5OSwibmlja05hbWUiOiJ4aWFvamllIiwiYWNjb3VudE5hbWUiOiJ4aWFvamllIiwibWVyY2hhbnRJZCI6IjEwMSIsImN1cnJlbmN5IjoiR0MiLCJleHAiOjE3NTA2NDg0OTksImlhdCI6MTc1MDA0MzY5OX0.i3h3DhoFgoFzAGfYEG0kN61lT1dgypkRPLyzZQOQvIc"
+	token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6IjEwMV9vb281NSIsInRpbWUiOjE3NTA4MTY0ODksIm5pY2tOYW1lIjoib29vNTUiLCJhY2NvdW50TmFtZSI6Im9vbzU1IiwibWVyY2hhbnRJZCI6IjEwMSIsImN1cnJlbmN5IjoiR0MiLCJleHAiOjE3NTE0MjEyODksImlhdCI6MTc1MDgxNjQ4OX0.HjPCRr99fiedgQDZSY4q_dpPH160fJR3RZ85zBJgzyc"
+
+	customToken, err := VerifyCustomToken(token, []byte("tBS@#3ixECKe5yC"))
+
+	if err != nil {
+		t.Errorf("err:%v", err)
+		return
+	}
+	t.Logf("customToken: %v", customToken)
+}

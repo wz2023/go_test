@@ -1,0 +1,18 @@
+{
+    "Host": ":36530",
+    "GameNumber": 3,
+    "Servers": [
+        {
+            "ID": 1,
+            "Type": "Hall",
+            "Addr": "127.0.0.1:36531",
+            "Status": 1
+        },
+        {
+            "ID": 10,
+            "Type": "Fish",
+            "Addr": "127.0.0.1:36539",
+            "Status": 1
+        }
+    ]
+}

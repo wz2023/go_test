@@ -1,0 +1,120 @@
+syntax = "proto3";
+
+option go_package = "./plr";
+
+// 二十一点玩法协议 01
+// 卡片定义 16进制的个位表示面值，十位表示花色 1方片 2梅花 3红桃 4黑桃
+// A   0x11（方片A）  0x21（梅花A）  0x31（红桃A）  0x41（黑桃A）
+// 2   0x12 0x22 0x32 0x42
+// 3   0x13 0x23 0x33 0x43
+// 4   0x14 0x24 0x34 0x44
+// 5   0x15 0x25 0x35 0x45
+// 6   0x16 0x26 0x36 0x46
+// 7   0x17 0x27 0x37 0x47
+// 8   0x18 0x28 0x38 0x48
+// 9   0x19 0x29 0x39 0x49
+// 10  0x1A 0x2A 0x3A 0x4A
+// J   0x1B 0x2B 0x3B 0x4B
+// Q   0x1C 0x2C 0x3C 0x4C
+// K   0x1D 0x2D 0x3D 0x4D
+
+enum TableState {
+  Init    = 0; // 初始
+  Deal    = 1; // 发牌
+  Deal    = 1; // 玩家回合
+  Deal    = 1; // 庄家回合
+  Settle  = 2; // 结算
+}
+
+// 玩家操作类型
+enum OpType {
+  None      = 0; // 默认空值
+  Bet       = 1; // 下注
+  Hit       = 2; // 要牌
+  Stand     = 3; // 停牌
+  Split     = 4; // 分牌
+  Double    = 5; // 加倍
+  Surrender = 6; // 投降
+  Insurance = 7; // 保险
+// 爆牌 todo
+}
+
+// 玩家信息
+message PlayerInfo {
+  string UserID = 1;        // 用户ID
+  string Name = 2;          // 用户名称
+  int32 SeatID = 3;         // 座位ID
+  int32 Balance = 4;        // 玩家金币
+  repeated int32 Hands = 5; // 玩家手牌列表信息
+}
+
+// 桌子信息
+message TableInfo {
+  int32 RoomID = 1;
+  int32 TableID = 2;
+  int32 GameID = 3;
+  repeated int32 DealerHands = 4; // 庄家手牌
+  repeated PlayerInfo Players= 5; // 玩家信息
+  TableState CurrTableState = 6;  // 当前桌子状态
+  string CurrOpPlayerID = 7;      // 当前操作玩家ID
+  int32 CurrOpEndTime = 8;        // 当前操作结束时间戳
+}
+
+// 玩家操作请求
+message C3010002 {
+  string UserID = 1;  // 用户ID
+  OpType OpType = 2;  // 操作类型
+  int32 BetAmount = 3;// 下注操作类型时，对应的下注的金额，其他操作类型忽略字段
+}
+message S3010002 {
+  int32 RetCode = 1;        // 状态码
+  repeated int32 Cards = 2; // 要牌操作对应要的牌列表
+  int32 Balance = 3;        // 玩家身上的金币
+}
+
+// 用户重入
+message C3010003 {
+  string UserID = 1;
+  int32 RoomID = 3;
+  int32 TableID = 4;
+  int32 SeatNo = 5;
+}
+message S3010003 {
+  int32 RetCode = 1;              // 状态码
+  TableInfo TableInfo = 2;        // 桌子信息
+}
+
+////////////////////////////////////////////////////////////////////////
+
+// 进入房间通知（所有玩家）
+message P3010001{
+  TableInfo TableInfo = 1;        // 桌子信息
+}
+
+// 发牌通知（所有玩家）
+message P3010002{
+  message CardInfo {
+    string UserID = 1;        // 用户ID
+    repeated int32 Cards = 2; // 要牌操作对应要的牌列表
+  }
+  int32 TableID = 1;
+  repeated CardInfo CardInfos = 2;
+}
+
+// 玩家操作通知（桌子其它玩家）
+message P3010003{
+  int32 TableID = 1;      // 桌子ID
+  string UserID = 2;      // 用户ID
+  OpType OpType = 3;      // 操作类型
+  int32 BetAmount = 4;    // 下注操作类型时，对应的下注的金额，其他操作类型忽略字段
+  int32 Balance = 5;      // 玩家身上的金币
+}
+
+// 当前桌子状态通知（所有玩家）
+message P3010004{
+  int32 TableID = 1;              // 桌子ID
+  TableState CurrTableState = 2;  // 当前桌子状态
+  string CurrOpPlayerID = 3;      // 当前操作玩家ID
+  int32 CurrOpEndTime = 4;        // 当前操作结束时间戳
+}
+
